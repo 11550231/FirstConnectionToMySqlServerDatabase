@@ -226,9 +226,9 @@ public class Connect {
     public static void main(String[] args) {
         System.out.println("start");
         System.out.println(getStudentById(241148).toString());
-        System.out.println(getStudentsByNameAndSurname("Pawel","Hetmanski").toString());
-        System.out.println(insertStudentIntoDatabase(new Student(24339,"Jan", "Kowalski",12)));
-        System.out.println(updateStunedtsNameById(24339,"Jan"));
+        //System.out.println(getStudentsByNameAndSurname("Pawel","Hetmanski").toString());
+        //System.out.println(insertStudentIntoDatabase(new Student(24339,"Jan", "Kowalski",12)));
+        //System.out.println(updateStunedtsNameById(24339,"Jan"));
         System.out.println("stop");
     }
 }
